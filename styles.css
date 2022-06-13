@@ -1,0 +1,104 @@
+body{
+    background-image: url('desert.png');
+    min-height:100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+    width: 100%;
+    font-family: 'Bubblegum Sans', cursive;
+}
+
+.mintButton{
+    height:50px;
+}
+.footer-div{
+    margin: 25px;
+}
+
+.footer-div p{
+    color: white;
+    font-size: 20px;
+}
+
+.homeicon{
+    margin-right: 15px;
+    height: 60px;
+    float: left;
+}
+
+.homeicon:hover{
+    cursor: pointer;
+}
+
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.quantity {
+    display: inline-block;
+    padding-bottom: 10px; 
+    justify-content: flex-end;
+    margin-right: 7px;
+    
+}
+.quantity .input-text.qty {
+    color: #eeeeee;
+    width: 34px;
+    height:28px;
+    padding: 0 5px;
+    text-align: center;
+    background-color: rgb(145,106,55);
+    border: 1px solid #efefef;
+   }
+   
+   .quantity.buttons_added {
+    text-align: left;
+    position: relative;
+    white-space: nowrap;
+    vertical-align: top; }
+   
+   .quantity.buttons_added input {
+    display: inline-block;
+    margin: 0;
+    vertical-align: top;
+    box-shadow: none;
+   }
+   
+   .quantity.buttons_added .minus,
+   .quantity.buttons_added .plus {
+    padding: 7px 24px 7px;
+    /* height: 29px; */
+    background-color: rgba(0, 0, 0, 0.350);
+    border: 1px solid #efefef;
+    cursor:pointer;
+        color: rgb(255, 255, 255);
+    
+}
+   
+   .quantity.buttons_added .minus {
+    border-right: 0;
+    border-radius: 20% 0 0 20% ; }
+   
+   .quantity.buttons_added .plus {
+    border-left: 0; 
+    border-radius: 0 20% 20% 0 ;}
+   
+   .quantity.buttons_added .minus:hover,
+   .quantity.buttons_added .plus:hover {
+    background: rgba(0, 0, 0, 0.657);
+    color: rgb(255, 255, 255); }
+   
+   .quantity input::-webkit-outer-spin-button,
+   .quantity input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    margin: 0; }
+    
+    .quantity.buttons_added .minus:focus,
+   .quantity.buttons_added .plus:focus {
+    outline: none; }
